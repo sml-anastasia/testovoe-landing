@@ -1,0 +1,36 @@
+.about_info {
+  padding-right: 5%;
+}
+
+.about__heading_main {
+  @include headtitle;
+  text-align: center;
+}
+
+.about__heading_title {
+  @include title;
+  font-size: 3rem;
+}
+
+.about_form {
+  width: 20rem;
+  @media screen and (max-width: 960px) {
+    align-self: center;
+  }
+}
+
+.form__input input {
+  @include input;
+}
+
+.info__text {
+  font-weight: 600;
+}
+
+.info__warning {
+  width: 80%;
+  margin-top: 3rem;
+  padding-top: 1rem;
+  font-style: italic;
+  border-top: 1px solid $accentColor;
+}

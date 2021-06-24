@@ -1,0 +1,61 @@
+@mixin sectionDesktop {
+  padding: 5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+@mixin sectionTablet {
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+}
+
+@mixin sectionMobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@mixin headtitle {
+  font-family: $plainFont;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+@mixin title {
+  font-family: $plainFont;
+  font-size: 2rem;
+  font-weight: 700;
+  color: $accentColor;
+}
+
+@mixin btn {
+  width: 20rem;
+  height: 3rem;
+  border: none;
+  border-radius: 30px;
+  background-color: $accentColor;
+  color: $whiteColor;
+}
+
+@mixin input {
+  width: 20rem;
+  height: 3rem;
+  margin-top: 2%;
+  padding: 0 5%;
+  border: 0.5px solid $accentColor;
+  border-radius: 30px;
+  background-color: $supportColorLight;
+  color: $plainColor;
+  box-sizing: border-box;
+}
+
+@mixin plainLink {
+  font-weight: 600;
+  color: $accentColor;
+  text-decoration: none;
+}
+
+@mixin activeLink {
+}

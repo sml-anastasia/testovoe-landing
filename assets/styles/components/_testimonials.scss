@@ -1,0 +1,12 @@
+.testimonial img {
+  margin: 5rem 0;
+  @media screen and (max-width: 760px) {
+    width: 280px;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.testimonials {
+  text-align: center;
+}
